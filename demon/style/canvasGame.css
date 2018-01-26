@@ -1,0 +1,89 @@
+html,body{
+    width:100%;
+    height:100%;
+    margin:0;
+    padding:0;
+    font-family: "Microsoft YaHei";
+    overflow: hidden;
+}
+.playerDiv{
+    width:100%;
+    height:100%;
+    top:0px;
+    z-index:100;
+    position:absolute;
+    background:url(../img/background.png);
+    background-size:100% 100%;
+    box-sizing: border-box;
+    color:#d2f8fc;
+    transition:0.3s all;
+}
+.overDiv{
+    padding-top:60px;
+}
+.startDiv{
+    padding-top:130px;
+}
+.canvas{
+    background:url(../img/background.png);
+    background-size:100% 100%;
+    display:block;
+}
+.imgContent{
+    width:48%;
+    margin:0 auto;
+}
+.titleContent{
+    margin-top:10px;
+    width:66%;
+    margin-left:80px;
+}
+.playerDiv .person{
+    width:100%;
+}
+.title{
+    font-size:30px;
+    text-align:center;
+    margin-top:15px;
+}
+.markContent{  
+    margin-top:15px;
+    text-align:center;
+    font-size:24px;
+}
+.timeContent{
+    margin-top:15px;
+    text-align:center;
+    font-size:24px;
+}
+.startButton{
+    border-radius:24px;
+    border:5px solid #d2f8fc;
+    width:220px;
+    height:50px;
+    font-weight:900;
+    color:#2e3158;
+    background:#66c2cc;
+    margin:0 auto;
+    margin-top:25px;
+    text-align:center;
+    box-sizing:border-box;
+    line-height:38px;
+    font-size:24px;
+}
+.timerContent{
+    width:100%;
+    height:50px;
+    background:#363636;
+    line-height:50px;
+    color:#fff;
+    text-align:center;
+}
+.timer{
+    width:55px;
+    height:100%;
+    margin:0 auto;
+}
+.timer>div{
+    float:left;
+}
