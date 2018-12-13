@@ -179,8 +179,8 @@ Game.prototype = {
 }
 
 window.onload = function(){
-    canvas.width = screen.availWidth;
-    canvas.height = screen.availHeight-50;
+    canvas.width = document.getElementById('gameContent').offsetWidth;
+    canvas.height = document.getElementById('gameContent').offsetHeight-50;
     var game1 = new Game(canvas);
     game1.init();
     document.getElementById("startButton").addEventListener("click",function(){

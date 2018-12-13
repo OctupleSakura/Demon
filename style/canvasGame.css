@@ -18,6 +18,13 @@ html,body{
     color:#d2f8fc;
     transition:0.3s all;
 }
+.gameContent{
+    max-width: 480px;
+    min-height: 100vh;
+    position: relative;
+    margin:0 auto;
+    overflow: hidden;
+}
 .overDiv{
     padding-top:60px;
 }

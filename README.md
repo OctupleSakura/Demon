@@ -9,3 +9,6 @@
 ![开始](https://github.com/OctupleSakura/showImg/blob/master/demon/demon1.png)
 ![游戏](https://github.com/OctupleSakura/showImg/blob/master/demon/demon3.png)
 ![结束](https://github.com/OctupleSakura/showImg/blob/master/demon/demon2.png)
+
+### 预览地址
+[戳这](https://octuplesakura.github.io/Demon/)

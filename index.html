@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style/canvasGame.css">
 </head>
 <body>
+  <div id="gameContent" class="gameContent">
     <div id="gamestart" class="playerDiv startDiv" style="left:0px">
         <div class="imgContent">
             <img src="img/gamer.png" class="person">
@@ -17,7 +18,7 @@
         </div>
         <div class="startButton" id="playButton">play</div>
     </div>
-    <div>
+    <div style="position:absolute;">
         <canvas id="game" class="canvas">Your browser is not support canvas!</canvas>
         <div class="timerContent" >
             <div class="timer" id="timer">
@@ -42,6 +43,7 @@
         </div>
         <div class="startButton" id="startButton">重新开始</div>
     </div>
+  </div>
 </body>
 </html>
 <script src="script/canvasGame.js"></script>
